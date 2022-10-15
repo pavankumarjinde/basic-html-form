@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first basic html project</title>
+</head>
+<body style="background-color: rgb(26, 1, 50); padding: 200px; padding-top: 50px; padding-left: 100px; border: 10rem solid aqua;"> 
+    <div >
+        <form action="thankupage.html" width="100">
+            <label for="name" style="color: white;"> Name</label>
+            <div><input type="text" name="myname" id="name" placeholder="Enter your name" size="100"></div>
+            <label for="email" style="color: white;">Email</label>
+            <div><input type="email" name="emailid" id="emailid" placeholder="Enter your email id" size="100" ></div>
+            <label for="age" style="color: white;">Age(optional)</label>
+            <div><input type="number" name="age" id="age" placeholder="Enter your Age" size="100"></div>
+            <div><p style="color: white;">Which option best describes your role</p> <select name="role" id="role" >
+                <option value="">--choose an option--</option>
+                <option value="jse">Junior Software Engineer</option>
+                <option value="sse">Senior Software Engineer</option>
+                <option value="fsd">Full Stack Developer</option>
+                <option value="cr">Current role</option>
+            </select></div>
+            <div><p style="color: white;">Would you recommend Quizmania</p> <input type="radio" name="rd" id="rd"><label for="rd" style="color: white;">Definitely</label><br> 
+                <input type="radio" name="rd" id="rda"><label for="rda" style="color: white;">Maybe</label><br>
+                <input type="radio" name="rd" id="rdb"><label for="rdb" style="color: white;">Not sure</label><br></div>
+            <div><p style="color: white;">What would you like to see improved?</p><input type="checkbox" name="fep" id="fep"><label for="fep" style="color: white;">Front-end projects</label><br>
+                <input type="checkbox" name="bep" id="bep"><label for="bep" style="color: white;">Back-end projects</label><br>
+                <input type="checkbox" name="dv" id="dv"><label for="dv" style="color: white;">Data Visualization</label><br></div>
+            <div><p style="color: white;">Any comments or suggestion?</p><textarea name="comments" id="" cols="50" rows="20" placeholder="Enter your comments here"></textarea></div>
+            <div> <input type="submit" style="background-color: rgb(156, 255, 7);"  > </div>
+            
+        </form>
+    </div>
+   
+    
+</body>
+</html>
